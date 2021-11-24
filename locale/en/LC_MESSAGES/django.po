@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: wikipedialibrary@wikimedia.org\n"
-"POT-Creation-Date: 2021-11-18 16:15+0000\n"
+"POT-Creation-Date: 2021-11-24 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -837,7 +837,7 @@ msgstr ""
 
 #. Translators: When a user applies for a set of resources, they receive this message if none are currently available. They are instead placed on a 'waitlist' for later approval.
 #. Translators: When a user renews their resource, they receive this message if none are currently available. They are instead placed on a 'waitlist' for later approval.
-#: TWLight/applications/views.py:462 TWLight/applications/views.py:1437
+#: TWLight/applications/views.py:462 TWLight/applications/views.py:1453
 msgid ""
 "This partner does not have any access grants available at this time. You may "
 "still apply for access; your application will be reviewed when access grants "
@@ -954,32 +954,32 @@ msgid "Error: Code used multiple times."
 msgstr ""
 
 #. Translators: After a coordinator has marked a number of applications as 'sent', this message appears.
-#: TWLight/applications/views.py:1396
+#: TWLight/applications/views.py:1412
 msgid "All selected applications have been marked as sent."
 msgstr ""
 
 #. Translators: When a user tries to renew their resource, they receive this message if the partner is not available.
-#: TWLight/applications/views.py:1427
+#: TWLight/applications/views.py:1443
 msgid ""
 "Cannot renew application at this time as partner is not available. Please "
 "check back later, or contact us for more information."
 msgstr ""
 
 #. Translators: This message is displayed when an attempt by a user to renew an application has been denied for some reason.
-#: TWLight/applications/views.py:1463
+#: TWLight/applications/views.py:1479
 #, python-brace-format
 msgid "Attempt to renew unapproved application #{pk} has been denied"
 msgstr ""
 
 #. Translators: If a user requests the renewal of their account, but it wasn't renewed, this message is shown to them.
-#: TWLight/applications/views.py:1535
+#: TWLight/applications/views.py:1551
 msgid ""
 "This object cannot be renewed. (This probably means that you have already "
 "requested that it be renewed.)"
 msgstr ""
 
 #. Translators: If a user requests the renewal of their account, this message is shown to them.
-#: TWLight/applications/views.py:1545
+#: TWLight/applications/views.py:1561
 msgid ""
 "Your renewal request has been received. A coordinator will review your "
 "request."
